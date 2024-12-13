@@ -163,7 +163,7 @@ Highlight backend API calls and database updates.
 
 2. Upload the Video:
 
-Share via YouTube or as a downloadable file.
+Share via YouTube -  https://youtu.be/v6LSdKSKbhE
 
 
 Ensure MongoDB is running remote cluster.
