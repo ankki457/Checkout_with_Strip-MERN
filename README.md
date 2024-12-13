@@ -208,8 +208,10 @@ Share via YouTube or as a downloadable file.
 
 Ensure MongoDB is running remote cluster.
 
+![Screenshot (101)](https://github.com/user-attachments/assets/df8b23dc-672c-4f43-b0f7-c69491247559)
+![Screenshot (102)](https://github.com/user-attachments/assets/c387582d-ec57-4d24-a739-7f998166c1be)
+![Screenshot (103)](https://github.com/user-attachments/assets/4496204e-ec48-4ff7-9da5-97d6b0ab2f75)
+![Screenshot (104)](https://github.com/user-attachments/assets/15e2f2f6-946b-41e1-aff2-5e651860c168)
+![Screenshot (105)](https://github.com/user-attachments/assets/90a85c45-1378-4754-a059-34906e9a6b70)
 
----
-
-Let me know if you need additional clarification or assistance!
-
+--
