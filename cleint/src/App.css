@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #333;
+}
+
+.card {
+  height: 400px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.card img {
+  max-height: 200px; 
+  object-fit: cover; 
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.2rem; 
+}
+
+.card-text {
+  font-size: 1rem; 
+}
+
+.fixed-cart-icon {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
