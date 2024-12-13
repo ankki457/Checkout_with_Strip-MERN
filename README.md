@@ -1,11 +1,6 @@
-README for Stripe Checkout Application
-
-
----
-
 Project Overview
-
-This application implements a simple e-commerce platform with Stripe integration for payment processing. Users can browse products, add them to a cart, and proceed to checkout to make payments using Stripe.
+This application implements a simple e-commerce platform with Stripe integration for payment processing. 
+Users can browse products, add them to a cart, and proceed to checkout to make payments using Stripe.
 
 
 ---
@@ -38,21 +33,10 @@ Backend:
 1. Order Tracking: Saves order details to a MongoDB database.
 
 
-2. Stripe Webhook: Updates order status based on Stripe events.
+2. Modular Code: Organized with controllers, models, and routes.
 
 
-3. Modular Code: Organized with controllers, models, and routes.
-
-
-4. RESTful APIs:
-
-Create a Stripe checkout session.
-
-Handle webhook events.
-
-
-
-
+3. RESTful APIs:
 
 ---
 
@@ -66,7 +50,7 @@ CSS
 
 Vanilla JavaScript
 
-Bootstrap (optional)
+Bootstrap
 
 
 Backend:
@@ -79,7 +63,7 @@ MongoDB
 
 Stripe API
 
-Mongoose ORM
+Mongoose Atlas
 
 dotenv
 
@@ -119,7 +103,7 @@ Backend:
 
 1. Clone the repository:
 
-git clone https://github.com/your-repository/stripe-checkout.git
+git clone https://github.com/ankki457/Checkout_with_Strip-MERN.git
 cd stripe-checkout/backend
 
 
@@ -134,14 +118,14 @@ Create a .env file in the backend folder with the following:
 
 PORT=5000
 STRIPE_SECRET_KEY=<your_stripe_secret_key>
-MONGO_URI=mongodb://localhost:27017/stripe-checkout
+MONGO_URI=mongodb:Atlas
 STRIPE_WEBHOOK_SECRET=<your_webhook_secret>
 
 
 
 4. Start the server:
 
-npm run dev
+npm run start
 
 
 5. Test the API:
@@ -203,27 +187,6 @@ POST /api/stripe/webhook
 Description: Listens for Stripe events and updates order status.
 
 
-
----
-
-Deployment
-
-1. Backend:
-
-Deploy using services like Heroku, Render, or AWS.
-
-Ensure .env variables are properly configured in the environment.
-
-
-
-2. Frontend:
-
-Host on static hosting services like GitHub Pages, Netlify, or Vercel.
-
-
-
-
-
 ---
 
 Video Demonstration
@@ -243,33 +206,7 @@ Highlight backend API calls and database updates.
 Share via YouTube or as a downloadable file.
 
 
-
-
-
----
-
-Key Notes
-
-1. Stripe Keys:
-
-Use test mode keys for development.
-
-Do not share your secret key in public repositories.
-
-
-
-2. Database Setup:
-
-Ensure MongoDB is running locally or configure it to connect to a remote cluster.
-
-
-
-3. Webhook Secret:
-
-Obtain from the Stripe Dashboard under Webhook settings.
-
-
-
+Ensure MongoDB is running remote cluster.
 
 
 ---
