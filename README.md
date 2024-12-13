@@ -43,58 +43,18 @@ Backend:
 Technologies Used
 
 Frontend:
-
 HTML
-
 CSS
-
 Vanilla JavaScript
-
 Bootstrap
 
-
 Backend:
-
 Node.js
-
 Express.js
-
 MongoDB
-
 Stripe API
-
 Mongoose Atlas
-
 dotenv
-
-
-
----
-
-Project Structure
-
-stripe-checkout/
-├── backend/
-│   ├── controllers/
-│   │   └── stripeController.js
-│   ├── models/
-│   │   └── orderModel.js
-│   ├── routes/
-│   │   └── stripeRoutes.js
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── index.html
-│   ├── cart.html
-│   ├── checkout.html
-│   ├── success.html
-│   ├── failure.html
-│   └── assets/
-│       └── styles.css
-├── README.md
-
-
 ---
 
 Setup Instructions
